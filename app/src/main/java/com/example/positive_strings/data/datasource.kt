@@ -3,7 +3,8 @@ package com.example.positive_strings.data
 import com.example.positive_strings.R
 import com.example.positive_strings.model.Affirmation
 
-class datasource {
+
+class Datasource {
 
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
